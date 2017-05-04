@@ -11,7 +11,7 @@ $dbname = 'example';
 $dbusername = 'foo';
 $dbpassword = 'bar';
 
-$db = new \Globally\Database('localhost',$dbname,$dbusername,$dbpassword);
+$db = new Database('localhost',$dbname,$dbusername,$dbpassword);
 
 $user = $db->selectOne('users',1,'id');
 // users tablosundan id = 1 olan kaydı sorgular
